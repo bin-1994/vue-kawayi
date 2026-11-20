@@ -1,0 +1,61 @@
+@import './icons.scss';
+
+html, body {
+    font-size: 14px;
+    font: 12px -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+    min-width: 1200px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #212121;
+    transition: .3s;
+}
+
+button, input, textarea {
+    font-family: inherit;
+    outline: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    appearance: none
+}
+
+ul, li {
+    list-style: none;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-button, 
+.custom-scrollbar::-webkit-scrollbar-track {
+    display: none;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #e5e9ef;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+}
